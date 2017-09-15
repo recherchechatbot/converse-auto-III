@@ -1,0 +1,30 @@
+{
+  "name": "converse-auto-III",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recherchechatbot/converse-auto-III.git"
+  },
+  "keywords": [
+    "API.AI",
+    "Support",
+    "Webhook"
+  ],
+  "author": "Recherche Chatbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recherchechatbot/converse-auto-III/issues"
+  },
+  "homepage": "https://github.com/recherchechatbot/converse-auto-III#readme",
+  "dependencies": {
+    "apiai": "^4.0.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
