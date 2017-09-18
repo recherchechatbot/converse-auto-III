@@ -485,7 +485,7 @@ class FacebookBot {
 
 let facebookBot = new FacebookBot();
 
-const app = express();
+
 
 app.use(bodyParser.text({ type: 'application/json' }));
 
