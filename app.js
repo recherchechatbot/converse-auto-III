@@ -6,13 +6,12 @@ const app = express();
 const bodyParser = require('body-parser');
 const request = require('request');
 const apiai = require('apiai');
-const api = apiai(config.apiaitoken);
 const JSONbig = require('json-bigint');
 const async = require('async');
 const uuid = require('uuid');
 
 const REST_PORT = (process.env.PORT || 5000);
-const FACEBOOK_ACCESS_TOKEN = 'EAAIz3EmpCdEBADuu3ACmUqenfMmsKGuAe8rJ5UAtCVLPyFGM5lmUUnJngZAlsPQfcCMTv01qtZAc8nZBZAzYSzwrJdLoJhKZBZCBWJvItJmuPM9flN1vDkTAqZAhGmwvJic49xWClm4YIjCYSGUUMvWvxJYKKSeiLPhnT4oZCHfCbgZDZD';
+const FB_PAGE_ACCESS_TOKEN = 'EAAIz3EmpCdEBADuu3ACmUqenfMmsKGuAe8rJ5UAtCVLPyFGM5lmUUnJngZAlsPQfcCMTv01qtZAc8nZBZAzYSzwrJdLoJhKZBZCBWJvItJmuPM9flN1vDkTAqZAhGmwvJic49xWClm4YIjCYSGUUMvWvxJYKKSeiLPhnT4oZCHfCbgZDZD';
 const APIAI_LANG = process.env.APIAI_LANG || 'fr';
 const FB_VERIFY_TOKEN = 'converse auto III';
 const APIAI_ACCESS_TOKEN = '812aca73113d4684b780de9821f22a7b';
